@@ -1,0 +1,11 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--pale1);
+  background: var(--dark);
+  height: 50px;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+}

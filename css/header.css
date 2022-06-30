@@ -1,0 +1,9 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--pale1);
+  background: var(--dark);
+  height: 50px;
+  font-size: 10px;
+}
