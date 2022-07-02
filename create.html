@@ -12,6 +12,75 @@
       <h1>CREATE</h1>
     </header>
 
-    <footer>Footer</footer>
+    <form class="create">
+      <label for="create__question">
+        <legend class="create__question">Create your crazy question</legend>
+      </label>
+      <textarea
+        class="question__text"
+        placeholder="Max. 100 characters"
+        name="new_question"
+        cols="50"
+        rows="5"
+      ></textarea>
+
+      <label for="answers__text">
+        <legend class="answers__text">Your Answers</legend>
+      </label>
+      <textarea
+        class="answers"
+        cols="50"
+        rows="1"
+        placeholder="Answer a"
+        name="new-answer"
+        type="text"
+      ></textarea>
+      <textarea
+        class="answers"
+        cols="50"
+        rows="1"
+        placeholder="Answer b"
+        name="new-answer"
+        type="text"
+      ></textarea>
+      <textarea
+        class="answers"
+        cols="50"
+        rows="1"
+        placeholder="Answer c"
+        name="new-answer"
+        type="text"
+      ></textarea>
+      <textarea
+        class="answers"
+        cols="50"
+        rows="1"
+        placeholder="Answer d"
+        name="new-answer"
+        type="text"
+      ></textarea>
+
+      <label for="right__answer">
+        <legend class="right__answer">Which is the right Answer?</legend>
+      </label>
+      <select name="right__answer__select" class="right__answer__select">
+        <option value="right_answer__select">Answer 1</option>
+        <option value="right_answer__select">Answer 2</option>
+        <option value="right_answer__select">Answer 3</option>
+        <option value="right_answer__select">Answer 4</option>
+      </select>
+      <button class="submit__btn">Create this question</button>
+    </form>
+
+    <footer>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__list__item">Home</li>
+          <li class="nav__list__item">Bookmarks</li>
+          <li class="nav__list__item">Create</li>
+          <li class="nav__list__item">Profile</li>
+        </ul>
+      </nav>
+    </footer>
   </body>
 </html>
