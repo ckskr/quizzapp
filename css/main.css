@@ -1,0 +1,6 @@
+main {
+  _height: calc(100vh - 60px - 40px);
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+}

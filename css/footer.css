@@ -4,8 +4,24 @@ footer {
   align-items: center;
   color: var(--pale1);
   background: var(--dark);
-  height: 50px;
+  height: 80px;
   position: fixed;
   bottom: 0;
   width: 100vw;
+}
+
+.nav {
+  position: fixed;
+  width: 100%;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav__list__item {
+  display: flex;
+  justify-content: center;
 }
