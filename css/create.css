@@ -49,3 +49,16 @@
   margin: 2rem;
   color: var(--background-color);
 }
+
+.tags {
+  border-radius: 20px;
+  background-color: var(--pale1);
+  padding: 10px;
+  margin: 5px;
+  color: var(--dark);
+  width: 500px;
+}
+
+.add__tags {
+  margin-top: 20px;
+}

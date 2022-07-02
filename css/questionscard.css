@@ -1,6 +1,6 @@
 .card {
   background-color: var(--pale1);
-  display: flex;
+  _display: flex;
   flex-direction: column;
   width: 80vw;
   height: fit-content;
@@ -12,7 +12,6 @@
 
 .card__text {
   padding: 20px;
-
   hyphens: auto;
   text-align: justify;
   color: var(--accent);
@@ -20,8 +19,8 @@
 }
 
 .card__submit {
-  display: flex;
-  justify-content: center;
+  _display: flex;
+  _justify-content: center;
 }
 
 .card__question {
@@ -39,13 +38,12 @@
 }
 
 .card__answers ul {
-  display: flex;
+  _display: flex;
   flex-wrap: wrap;
   gap: 10px;
   padding: 0;
   margin: 40px 0 0 0;
   list-style: none;
-  display: flex;
   justify-content: space-around;
 }
 
@@ -55,16 +53,21 @@
   height: 30px;
   margin-left: 20px;
   background-color: var(--mid);
-  box-shadow: 10px 8px 50px 0 var(--accent), 0 6px 15px 0 var(--accent);
 }
 
-.card__answer_btn {
+.question__tags ul {
+  _display: flex;
+  gap: 15px;
+  padding: 20px;
+  padding-bottom: 0px;
+}
+
+.question__tag__item {
   list-style: none;
   border: 2px solid var(--accent);
   border-radius: 10%;
-  padding: 5px;
-  width: 100px;
+  width: 80px;
   height: auto;
-  display: flex;
+  _display: flex;
   justify-content: center;
 }
