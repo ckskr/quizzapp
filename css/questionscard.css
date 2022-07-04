@@ -1,11 +1,13 @@
+/* Main */
 .main {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 30px;
-  margin-bottom: 100px;
+  padding: 100px 0;
 }
 
+/* Card */
 .card {
   background-color: var(--pale1);
   display: flex;
@@ -18,6 +20,7 @@
   position: relative;
 }
 
+/* Questiontext */
 .card__question {
   padding: 20px;
   hyphens: auto;
@@ -31,12 +34,13 @@ _.card__submit {
   justify-content: center;
 }
 
-.card__question {
+_.card__question {
   color: var(--accent);
   padding-left: 20px;
   padding-top: 20px;
 }
 
+/* Bookmark */
 .bookmark__icon {
   position: absolute;
   top: 15px;
@@ -45,6 +49,7 @@ _.card__submit {
   width: 30px;
 }
 
+/* Tags */
 .question__tags ul {
   display: flex;
   flex-wrap: wrap;
@@ -54,25 +59,12 @@ _.card__submit {
   list-style: none;
   justify-content: space-around;
   text-decoration: none;
-}
-
-.card__answers button {
-  border: 1px solid var(--dark);
-  width: 100px;
-  height: 30px;
-  margin-left: 20px;
-  background-color: var(--pale1);
-}
-
-.question__tags ul {
-  display: flex;
   gap: 15px;
   padding: 20px;
   padding-bottom: 0px;
 }
 
 .question__tag__item {
-  _list-style: none;
   border: 1px solid var(--accent);
   border-radius: 20px;
   width: 80px;
@@ -81,6 +73,16 @@ _.card__submit {
   justify-content: center;
   align-items: center;
   _text-decoration-line: none;
+}
+
+/* Answer */
+.card__answers button {
+  border: 1px solid var(--dark);
+  color: var(--pale2);
+  width: 100px;
+  height: 30px;
+  margin-left: 20px;
+  background-color: var(--dark);
 }
 
 .answer {

@@ -1,0 +1,4 @@
+.bookmark__icon__clicked {
+  filter: invert(42%) sepia(71%) saturate(2700%) hue-rotate(292deg)
+    brightness(90%) contrast(94%);
+}

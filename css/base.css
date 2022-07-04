@@ -6,17 +6,9 @@
 }
 
 :root {
-  --accent: #14213d;
+  --accent: #22333b;
   --mid: #14213d;
   --dark: #4b88a2;
   --pale1: #e5e5e5;
   --pale2: #ffffff;
-}
-
-/*
-  --header-height: 75px;
-  --footer-height: 50px; */
-
-.text--highlight {
-  color: red;
 }
