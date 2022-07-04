@@ -13,55 +13,55 @@
     </header>
 
     <main class="main">
-      <article class="card">
-        <h2 class="card__question">Questions?</h2>
-        <a href="#"
-          ><img
-            class="bookmark__icon"
-            src="./img/bookmark.png"
-            alt="bookmark icon"
-        /></a>
+      <section class="card">
+        <h2 class="card__question">Question</h2>
+        <img
+          class="bookmark__icon"
+          src="./img/bookmark.png"
+          alt="bookmark icon"
+        />
         <p class="card__text">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione,
-          maxime?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit?
         </p>
-        <section class="card__answers">
-          <button class="card_btn">Show answer</button>
-        </section>
-        <section class="question__tags">
+        <div class="card__answers">
+          <button class="card_btn" type="button">Show answer</button>
+        </div>
+        <div class="question__tags">
           <ul>
-            <a href=""><li class="question__tag__item">tag 1</li></a>
-            <a href=""><li class="question__tag__item">tag 2</li></a>
-            <a href=""><li class="question__tag__item">tag 3</li></a>
-            <a href=""><li class="question__tag__item">tag 4</li></a>
-          </ul>
-        </section>
-      </article>
+            <!-- Richtiger Aufbau  -->
+            <li>
+              <button type="button" class="question__tag__item">tag 1</button>
+            </li>
+            <!-- Richtiger Aufbau Ende -->
 
-      <article class="card">
-        <h2 class="card__question">Questions?</h2>
-        <a href="#"
-          ><img
-            class="bookmark__icon"
-            src="./img/bookmark.png"
-            alt="bookmark icon"
-        /></a>
-        <p class="card__text">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione,
-          maxime?
-        </p>
-        <section class="card__answers">
-          <button class="card_btn">Show answer</button>
-        </section>
-        <section class="question__tags">
-          <ul>
-            <a href=""><li class="question__tag__item">tag 1</li></a>
-            <a href=""><li class="question__tag__item">tag 2</li></a>
-            <a href=""><li class="question__tag__item">tag 3</li></a>
-            <a href=""><li class="question__tag__item">tag 4</li></a>
+            <li class="question__tag__item">tag 2</li>
+            <li class="question__tag__item">tag 3</li>
+            <li class="question__tag__item">tag 4</li>
           </ul>
-        </section>
-      </article>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2 class="card__question">Question</h2>
+        <img
+          class="bookmark__icon"
+          src="./img/bookmark.png"
+          alt="bookmark icon"
+        />
+        <p class="card__text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit?
+        </p>
+        <div class="card__answers">
+          <button class="card_btn" type="button">Show answer</button>
+        </div>
+        <div class="question__tags">
+          <ul>
+            <li class="question__tag__item">tag 2</li>
+            <li class="question__tag__item">tag 3</li>
+            <li class="question__tag__item">tag 4</li>
+          </ul>
+        </div>
+      </section>
     </main>
 
     <footer>

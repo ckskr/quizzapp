@@ -4,3 +4,7 @@ main {
   display: flex;
   justify-content: center;
 }
+
+body {
+  background: var(--pale1);
+}

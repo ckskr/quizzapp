@@ -33,21 +33,15 @@
   margin-top: 30px;
   margin-bottom: 5px;
 }
-.right__answer__select {
-  border-radius: 20px;
-  background-color: var(--pale1);
-  width: 10rem;
-  padding: 0.3rem;
-  margin: 0.2rem;
-  color: var(--dark);
-}
+
 .submit__btn {
   border-radius: 20px;
-  background-color: var(--pale2);
+
   width: 150px;
   padding: 6px;
   margin: 2rem;
-  color: var(--background-color);
+  color: var(--pale1);
+  background-color: var(--dark);
 }
 
 .tags {

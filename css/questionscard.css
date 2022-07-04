@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   gap: 30px;
+  margin-bottom: 100px;
 }
 
 .card {
@@ -13,7 +14,7 @@
   height: fit-content;
   padding: 20px;
   border-radius: 30px;
-  border: 5px dotted var(--accent);
+  border: 1px solid var(--accent);
   position: relative;
 }
 
@@ -38,20 +39,21 @@
 
 .bookmark__icon {
   position: absolute;
-  top: 5px;
-  right: 10px;
+  top: 15px;
+  right: 15px;
   filter: invert();
-  width: 50px;
+  width: 30px;
 }
 
-.card__answers ul {
+.question__tags ul {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
   padding: 0;
-  margin: 40px 0 0 0;
+  margin: 20px 0 0 0;
   list-style: none;
   justify-content: space-around;
+  text-decoration: none;
 }
 
 .card__answers button {
@@ -59,22 +61,24 @@
   width: 100px;
   height: 30px;
   margin-left: 20px;
-  background-color: var(--mid);
+  background-color: var(--pale1);
 }
 
 .question__tags ul {
-  _display: flex;
+  display: flex;
   gap: 15px;
   padding: 20px;
   padding-bottom: 0px;
 }
 
 .question__tag__item {
-  list-style: none;
-  border: 2px solid var(--accent);
-  border-radius: 10%;
+  _list-style: none;
+  border: 1px solid var(--accent);
+  border-radius: 20px;
   width: 80px;
-  height: auto;
+  height: 30px;
   display: flex;
   justify-content: center;
+  align-items: center;
+  _text-decoration-line: none;
 }
