@@ -16,3 +16,7 @@
 /*
   --header-height: 75px;
   --footer-height: 50px; */
+
+.text--highlight {
+  color: red;
+}

@@ -18,7 +18,7 @@
   position: relative;
 }
 
-.card__text {
+.card__question {
   padding: 20px;
   hyphens: auto;
   text-align: justify;
@@ -26,7 +26,7 @@
   font-size: 1.5rem;
 }
 
-.card__submit {
+_.card__submit {
   display: flex;
   justify-content: center;
 }
@@ -81,4 +81,8 @@
   justify-content: center;
   align-items: center;
   _text-decoration-line: none;
+}
+
+.answer {
+  display: none;
 }

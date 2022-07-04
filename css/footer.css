@@ -29,3 +29,7 @@ footer {
 .footer__icon {
   width: 25px;
 }
+
+.footer__icon__current {
+  filter: invert();
+}
