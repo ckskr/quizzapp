@@ -13,20 +13,25 @@
     </header>
 
     <main class="main">
+      <!-- Card1 -->
       <section class="card">
         <h2 class="card__question">Question 1</h2>
         <img
           class="bookmark__icon bookmark__icon__clicked"
           src="./img/bookmark.png"
           alt="bookmark icon"
+          data-js="filled"
         />
-        <p class="card__question">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit?
-        </p>
-        <div class="card__answers">
-          <button class="card_btn" type="button">Show answer</button>
-          <p class="answer">answer lorem</p>
+        <p class="card__question">What is Queen Elizabeth II's surname?</p>
+        <div class="card__answers card__answer__shown">
+          <button class="card_btn" data-js="button" type="button">
+            Show answer
+          </button>
+          <p class="answer" data-js="answer">Windsor</p>
         </div>
+
+        <!-- Card2 -->
+
         <div class="question__tags">
           <ul>
             <li>

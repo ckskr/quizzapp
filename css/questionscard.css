@@ -40,15 +40,6 @@ _.card__question {
   padding-top: 20px;
 }
 
-/* Bookmark */
-.bookmark__icon {
-  position: absolute;
-  top: 15px;
-  right: 15px;
-  filter: invert();
-  width: 30px;
-}
-
 /* Tags */
 .question__tags ul {
   display: flex;
@@ -87,4 +78,8 @@ _.card__question {
 
 .answer {
   display: none;
+}
+
+.card__answer__shown {
+  display: block;
 }

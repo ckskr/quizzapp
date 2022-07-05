@@ -2,3 +2,11 @@
   filter: invert(42%) sepia(71%) saturate(2700%) hue-rotate(292deg)
     brightness(90%) contrast(94%);
 }
+
+.bookmark__icon {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  _filter: invert();
+  width: 30px;
+}
