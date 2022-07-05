@@ -82,4 +82,7 @@ _.card__question {
 
 .card__answer__shown {
   display: block;
+  padding-left: 20px;
+  padding-top: 10px;
+  color: var(--dark);
 }

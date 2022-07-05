@@ -1,12 +1,22 @@
+.bookmark__icon {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  filter: invert();
+  width: 30px;
+}
+
 .bookmark__icon__clicked {
   filter: invert(42%) sepia(71%) saturate(2700%) hue-rotate(292deg)
     brightness(90%) contrast(94%);
 }
 
-.bookmark__icon {
+.bookmark__button {
+  width: 60px;
+  height: 60px;
   position: absolute;
-  top: 15px;
-  right: 15px;
-  _filter: invert();
-  width: 30px;
+  top: 5px;
+  right: 5px;
+  border: none;
+  background: none;
 }

@@ -16,7 +16,7 @@ let bookmark = document.querySelector('[data-js="bookmark"]');
 let fill = document.querySelector('[data-js="filled"]');
 
 function clickBookmark() {
-  fill.classList.toggle("bookmark__icon_clicked");
+  fill.classList.toggle("bookmark__icon__clicked");
 }
 
 bookmark.addEventListener("click", clickBookmark);
