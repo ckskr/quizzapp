@@ -1,7 +1,7 @@
 //Answer
 
-let button = document.querySelector('[data-js="button"]');
-let answer = document.querySelector('[data-js="answer"]');
+const button = document.querySelector('[data-js="button"]');
+const answer = document.querySelector('[data-js="answer"]');
 
 function onButtonClick() {
   answer.classList.toggle("card__answer__shown");
@@ -9,11 +9,11 @@ function onButtonClick() {
 
 button.addEventListener("click", onButtonClick);
 
-//Bookmark
+//Bookmark‚
 
-let bookmark = document.querySelector('[data-js="bookmark"]');
+const bookmark = document.querySelector('[data-js="bookmark"]');
 
-let fill = document.querySelector('[data-js="filled"]');
+const fill = document.querySelector('[data-js="filled"]');
 
 function clickBookmark() {
   fill.classList.toggle("bookmark__icon__clicked");
