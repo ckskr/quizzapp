@@ -12,3 +12,18 @@
   --pale1: #e5e5e5;
   --pale2: #ffffff;
 }
+
+main {
+  _height: calc(100vh - 60px - 40px);
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 100px 0;
+}
+
+body {
+  background: var(--pale1);
+}
