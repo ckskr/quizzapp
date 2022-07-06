@@ -1,3 +1,9 @@
+//Bookmark
+
+import Bookmark from "./components/bookmark/bookmark.js";
+
+Bookmark();
+
 //Answer
 
 const button = document.querySelector('[data-js="button"]');
@@ -8,15 +14,3 @@ function onButtonClick() {
 }
 
 button.addEventListener("click", onButtonClick);
-
-//Bookmark‚
-
-const bookmark = document.querySelector('[data-js="bookmark"]');
-
-const fill = document.querySelector('[data-js="filled"]');
-
-function clickBookmark() {
-  fill.classList.toggle("bookmark__icon__clicked");
-}
-
-bookmark.addEventListener("click", clickBookmark);
