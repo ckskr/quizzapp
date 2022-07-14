@@ -4,8 +4,8 @@ export default function Bookmark() {
   const fill = document.querySelector('[data-js="filled"]');
 
   function clickBookmark() {
-    fill.classList.toggle("bookmark__icon__clicked");
+    fill.classList.toggle('bookmark__icon__clicked');
   }
 
-  bookmark.addEventListener("click", clickBookmark);
+  bookmark.addEventListener('click', clickBookmark);
 }
